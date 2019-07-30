@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FitnessTracker">
+        <attr name="ft_progress_steps" format="integer" />
+        <attr name="ft_progress_max_steps" format="integer" />
+        <attr name="ft_progressbar_color_steps" format="color" />
+        <attr name="ft_background_progressbar_color_steps" format="color" />
+        <attr name="ft_text_color" format="color" />
+        <attr name="ft_progressbar_width" format="dimension" />
+        <attr name="ft_background_progressbar_width" format="dimension" />
+        <!--<attr name="ft_indeterminate_mode_steps" format="boolean" />-->
+        <attr name="ft_progress_drawable_steps" format="integer" />
+
+        <attr name="ft_margin" format="dimension" />
+        <attr name="ft_text_size" format="dimension" />
+
+
+        <attr name="ft_progress_calories" format="integer" />
+        <attr name="ft_progress_max_calories" format="integer" />
+        <attr name="ft_progressbar_color_calories" format="color" />
+        <attr name="ft_background_progressbar_color_calories" format="color" />
+        <!--<attr name="ft_progressbar_width_calories" format="dimension" />-->
+        <!--<attr name="ft_background_progressbar_width_calories" format="dimension" />-->
+        <!--<attr name="ft_indeterminate_mode_calories" format="boolean" />-->
+        <attr name="ft_progress_drawable_calories" format="integer" />
+
+
+        <attr name="ft_progress_dist" format="integer" />
+        <attr name="ft_progress_max_dist" format="integer" />
+        <attr name="ft_progressbar_color_dist" format="color" />
+        <attr name="ft_background_progressbar_color_dist" format="color" />
+        <!--<attr name="ft_progressbar_width_dist" format="dimension" />-->
+        <!--<attr name="ft_background_progressbar_width_dist" format="dimension" />-->
+        <!--<attr name="ft_indeterminate_mode_dist" format="boolean" />-->
+        <attr name="ft_progress_drawable_dist" format="integer" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="HeartRippleAnimation">
+        <attr name="hra_color" format="color" />
+        <attr name="hra_strokeWidth" format="dimension"/>
+        <attr name="hra_radius" format="dimension"/>
+        <attr name="hra_duration" format="integer"/>
+        <attr name="hra_rippleAmount" format="integer"/>
+        <attr name="hra_scale" format="float"/>
+        <attr name="hra_type" format="enum">
+            <enum name="fillRipple" value="0"/>
+            <enum name="strokeRipple" value="1"/>
+        </attr>
+        <attr name="hra_drawable" format="integer"/>
+    </declare-styleable>
+
+
+
+        <declare-styleable name="ColorArcProgressBar">
+            <attr name="back_color" format="color"/>
+            <attr name="front_color1" format="color"/>
+            <attr name="front_color2" format="color"/>
+            <attr name="front_color3" format="color"/>
+            <attr name="back_width" format="dimension"/>
+            <attr name="front_width" format="dimension"/>
+            <attr name="is_need_title" format="boolean"/>
+            <attr name="is_need_content" format="boolean"/>
+            <attr name="is_need_unit" format="boolean"/>
+            <attr name="is_need_dial" format="boolean"/>
+            <attr name="string_title" format="string"/>
+            <attr name="string_unit" format="string"/>
+            <attr name="total_engle" format="integer"/>
+            <attr name="current_value" format="float"/>
+            <attr name="max_value" format="float"/>
+           <attr name="WalkImage" format="integer"></attr>
+        </declare-styleable>
+
+    <declare-styleable name="ArcProgress">
+        <attr name="arc_progress" format="integer"/>
+        <attr name="arc_angle" format="float"/>
+        <attr name="arc_stroke_width" format="dimension"/>
+        <attr name="arc_max" format="integer"/>
+
+        <attr name="arc_unfinished_color" format="color"/>
+        <attr name="arc_finished_color" format="color"/>
+
+        <attr name="arc_text_size" format="dimension"/>
+        <attr name="arc_text_color" format="color"/>
+
+        <attr name="arc_suffix_text" format="string"/>
+        <attr name="arc_suffix_text_size" format="dimension"/>
+        <attr name="arc_suffix_text_padding" format="dimension"/>
+
+        <attr name="arc_bottom_text" format="string"/>
+        <attr name="arc_bottom_text_size" format="dimension"/>
+    </declare-styleable>
+
+</resources>
